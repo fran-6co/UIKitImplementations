@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A12C5FE02C553EDB00DCCC2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12C5FDF2C553EDB00DCCC2C /* ContentView.swift */; };
 		A1D867B82C53F5CD00C0DFE9 /* UIKitImplementationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D867B72C53F5CD00C0DFE9 /* UIKitImplementationsApp.swift */; };
 		A1D867BA2C53F5CD00C0DFE9 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D867B92C53F5CD00C0DFE9 /* PageView.swift */; };
 		A1D867BC2C53F5D200C0DFE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1D867BB2C53F5D200C0DFE9 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A12C5FDF2C553EDB00DCCC2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A1D867B42C53F5CD00C0DFE9 /* UIKitImplementations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitImplementations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D867B72C53F5CD00C0DFE9 /* UIKitImplementationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitImplementationsApp.swift; sourceTree = "<group>"; };
 		A1D867B92C53F5CD00C0DFE9 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				A1D867B72C53F5CD00C0DFE9 /* UIKitImplementationsApp.swift */,
+				A12C5FDF2C553EDB00DCCC2C /* ContentView.swift */,
 				A1D867C92C53F67100C0DFE9 /* PageView */,
 				A1D867BB2C53F5D200C0DFE9 /* Assets.xcassets */,
 				A1D867BD2C53F5D200C0DFE9 /* Preview Content */,
@@ -155,6 +158,7 @@
 				A1D867BA2C53F5CD00C0DFE9 /* PageView.swift in Sources */,
 				A1D867C82C53F66600C0DFE9 /* PageControl.swift in Sources */,
 				A1D867B82C53F5CD00C0DFE9 /* UIKitImplementationsApp.swift in Sources */,
+				A12C5FE02C553EDB00DCCC2C /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

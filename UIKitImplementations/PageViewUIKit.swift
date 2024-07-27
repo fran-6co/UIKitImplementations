@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct PageViewUIKitController<Page : View>: UIViewControllerRepresentable {
-//    typealias UIViewControllerType = <#type#>
     var pages: [Page]
     @Binding var currentPage: Int
     var backgroundColor: UIColor?

@@ -26,13 +26,17 @@ struct PageView: View {
     var body: some View {
         VStack {
             Text("Page viewer simple")
+                .font(.largeTitle)
+                .underline()
+                .padding(50)
             ZStack (alignment: .bottom){
                 PageViewUIKitController(pages: imageNames.map { Page(name: $0) }, currentPage: $currentPage)
                 PageControl(numberOfPages: imageNames.map{ Page(name: $0) }.count, currentPage: $currentPage)
                     .frame(width: CGFloat(imageNames.map{ Page(name: $0) }.count * 18)) //makes width according to what should measure each dot times how many dots.
             }
             .frame(height: 305)
-            Text("Current page: \(currentPage + 1)")
+            Text("Current page: #\(currentPage + 1)")
+                .font(.title)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background{ Color.mint.opacity(0.5) }
