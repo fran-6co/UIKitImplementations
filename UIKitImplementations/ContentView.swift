@@ -15,18 +15,13 @@ struct ContentView: View {
                     NavigationLink {
                         PageView()
                     } label: {
-                        Text("1. Page view with timer")
+                        Text("Page view with timer (Carousel)")
                     }
                 } header: {
                     Text("UIKit")
                 }
-                Section {
-                    Text("nothing yet")
-                } header: {
-                    Text("SwiftUI")
-                }
             }
-            .navigationTitle("Views")
+            .navigationTitle("UIKit implementations")
         }
     }
 }

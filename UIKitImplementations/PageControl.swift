@@ -14,7 +14,7 @@ struct PageControl: UIViewRepresentable {
     var numberOfPages: Int
     @Binding var currentPage: Int
     
-    let color = UIColor.red
+    let color = UIColor.white
     
     final class Coordinator: NSObject, UIPageControlTimerProgressDelegate {
         var parent: PageControl
